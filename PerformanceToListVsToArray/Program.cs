@@ -73,18 +73,13 @@ public class PrimitiveToListVsToArray : ToListVsToArray<int>
     }
 }
 
-public class ReferenceToListVsToArray : ToListVsToArray<ReferenceToListVsToArray.DummyReference>
+public class ReferenceToListVsToArray : ToListVsToArray<object>
 {
-    public ReferenceToListVsToArray() : base(i => new DummyReference
+    public ReferenceToListVsToArray() : base(i => new
     {
         Id = i
     })
     {
 
-    }
-
-    public class DummyReference
-    {
-        public int Id { get; set; }
     }
 }
