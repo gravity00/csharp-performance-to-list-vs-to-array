@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B0F5BE41-B145-4F72-8999-7CCBCE9335C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceToListVsToArray", "PerformanceToListVsToArray\PerformanceToListVsToArray.csproj", "{27FB12AD-723B-4744-B06E-631F6491F502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27FB12AD-723B-4744-B06E-631F6491F502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FB12AD-723B-4744-B06E-631F6491F502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FB12AD-723B-4744-B06E-631F6491F502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FB12AD-723B-4744-B06E-631F6491F502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27FB12AD-723B-4744-B06E-631F6491F502} = {B0F5BE41-B145-4F72-8999-7CCBCE9335C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A2CBC00-A693-42C0-9001-AC4FEDF7E9B2}
+	EndGlobalSection
+EndGlobal
